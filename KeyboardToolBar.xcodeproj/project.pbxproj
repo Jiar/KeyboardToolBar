@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80835FBC1BF605B000937DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FBB1BF605B000937DAA /* main.m */; };
+		80835FCA1BF605C600937DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FBE1BF605C600937DAA /* AppDelegate.m */; };
+		80835FCB1BF605C600937DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80835FBF1BF605C600937DAA /* Assets.xcassets */; };
+		80835FCE1BF605C600937DAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80835FC51BF605C600937DAA /* Info.plist */; };
+		80835FCF1BF605C600937DAA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80835FC61BF605C600937DAA /* LICENSE */; };
+		80835FD01BF605C600937DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 80835FC71BF605C600937DAA /* README.md */; };
+		80835FD11BF605C600937DAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FC91BF605C600937DAA /* ViewController.m */; };
+		80835FD51BF605D600937DAA /* KeyboardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FD41BF605D600937DAA /* KeyboardToolBar.m */; };
+		80835FD71BF61A3300937DAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80835FD61BF61A3300937DAA /* ViewController.xib */; };
+		80835FD91BF6234100937DAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80835FD81BF6234100937DAA /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80835FA11BF6050B00937DAA /* KeyboardToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80835FBB1BF605B000937DAA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		80835FBD1BF605C600937DAA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		80835FBE1BF605C600937DAA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		80835FBF1BF605C600937DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		80835FC51BF605C600937DAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		80835FC61BF605C600937DAA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		80835FC71BF605C600937DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		80835FC81BF605C600937DAA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		80835FC91BF605C600937DAA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		80835FD31BF605D600937DAA /* KeyboardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardToolBar.h; sourceTree = "<group>"; };
+		80835FD41BF605D600937DAA /* KeyboardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardToolBar.m; sourceTree = "<group>"; };
+		80835FD61BF61A3300937DAA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		80835FD81BF6234100937DAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80835F9E1BF6050B00937DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80835F981BF6050B00937DAA = {
+			isa = PBXGroup;
+			children = (
+				80835FA31BF6050B00937DAA /* KeyboardToolBar */,
+				80835FA21BF6050B00937DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80835FA21BF6050B00937DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80835FA11BF6050B00937DAA /* KeyboardToolBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80835FA31BF6050B00937DAA /* KeyboardToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				80835FD21BF605D600937DAA /* KeyboardToolBar */,
+				80835FBD1BF605C600937DAA /* AppDelegate.h */,
+				80835FBE1BF605C600937DAA /* AppDelegate.m */,
+				80835FBF1BF605C600937DAA /* Assets.xcassets */,
+				80835FC51BF605C600937DAA /* Info.plist */,
+				80835FC61BF605C600937DAA /* LICENSE */,
+				80835FC71BF605C600937DAA /* README.md */,
+				80835FC81BF605C600937DAA /* ViewController.h */,
+				80835FD81BF6234100937DAA /* Launch Screen.storyboard */,
+				80835FC91BF605C600937DAA /* ViewController.m */,
+				80835FD61BF61A3300937DAA /* ViewController.xib */,
+				80835FA41BF6050B00937DAA /* Supporting Files */,
+			);
+			path = KeyboardToolBar;
+			sourceTree = "<group>";
+		};
+		80835FA41BF6050B00937DAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80835FBB1BF605B000937DAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80835FD21BF605D600937DAA /* KeyboardToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				80835FD31BF605D600937DAA /* KeyboardToolBar.h */,
+				80835FD41BF605D600937DAA /* KeyboardToolBar.m */,
+			);
+			name = KeyboardToolBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80835FA01BF6050B00937DAA /* KeyboardToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80835FB81BF6050B00937DAA /* Build configuration list for PBXNativeTarget "KeyboardToolBar" */;
+			buildPhases = (
+				80835F9D1BF6050B00937DAA /* Sources */,
+				80835F9E1BF6050B00937DAA /* Frameworks */,
+				80835F9F1BF6050B00937DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardToolBar;
+			productName = KeyboardToolBar;
+			productReference = 80835FA11BF6050B00937DAA /* KeyboardToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80835F991BF6050B00937DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jiar;
+				TargetAttributes = {
+					80835FA01BF6050B00937DAA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 80835F9C1BF6050B00937DAA /* Build configuration list for PBXProject "KeyboardToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80835F981BF6050B00937DAA;
+			productRefGroup = 80835FA21BF6050B00937DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80835FA01BF6050B00937DAA /* KeyboardToolBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80835F9F1BF6050B00937DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80835FCE1BF605C600937DAA /* Info.plist in Resources */,
+				80835FCB1BF605C600937DAA /* Assets.xcassets in Resources */,
+				80835FD71BF61A3300937DAA /* ViewController.xib in Resources */,
+				80835FD91BF6234100937DAA /* Launch Screen.storyboard in Resources */,
+				80835FCF1BF605C600937DAA /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80835F9D1BF6050B00937DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80835FD51BF605D600937DAA /* KeyboardToolBar.m in Sources */,
+				80835FD01BF605C600937DAA /* README.md in Sources */,
+				80835FCA1BF605C600937DAA /* AppDelegate.m in Sources */,
+				80835FD11BF605C600937DAA /* ViewController.m in Sources */,
+				80835FBC1BF605B000937DAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80835FB61BF6050B00937DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80835FB71BF6050B00937DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80835FB91BF6050B00937DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiar.KeyboardToolBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80835FBA1BF6050B00937DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiar.KeyboardToolBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80835F9C1BF6050B00937DAA /* Build configuration list for PBXProject "KeyboardToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80835FB61BF6050B00937DAA /* Debug */,
+				80835FB71BF6050B00937DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80835FB81BF6050B00937DAA /* Build configuration list for PBXNativeTarget "KeyboardToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80835FB91BF6050B00937DAA /* Debug */,
+				80835FBA1BF6050B00937DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80835F991BF6050B00937DAA /* Project object */;
+}
