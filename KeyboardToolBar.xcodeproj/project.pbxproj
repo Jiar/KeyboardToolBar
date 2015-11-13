@@ -11,12 +11,10 @@
 		80835FCA1BF605C600937DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FBE1BF605C600937DAA /* AppDelegate.m */; };
 		80835FCB1BF605C600937DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80835FBF1BF605C600937DAA /* Assets.xcassets */; };
 		80835FCE1BF605C600937DAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80835FC51BF605C600937DAA /* Info.plist */; };
-		80835FCF1BF605C600937DAA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80835FC61BF605C600937DAA /* LICENSE */; };
-		80835FD01BF605C600937DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 80835FC71BF605C600937DAA /* README.md */; };
 		80835FD11BF605C600937DAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FC91BF605C600937DAA /* ViewController.m */; };
-		80835FD51BF605D600937DAA /* KeyboardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FD41BF605D600937DAA /* KeyboardToolBar.m */; };
-		80835FD71BF61A3300937DAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80835FD61BF61A3300937DAA /* ViewController.xib */; };
-		80835FD91BF6234100937DAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80835FD81BF6234100937DAA /* Launch Screen.storyboard */; };
+		80835FDF1BF62D5E00937DAA /* KeyboardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80835FDC1BF62D5E00937DAA /* KeyboardToolBar.m */; };
+		80835FE01BF62D5E00937DAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80835FDD1BF62D5E00937DAA /* Launch Screen.storyboard */; };
+		80835FE11BF62D5E00937DAA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80835FDE1BF62D5E00937DAA /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,14 +24,12 @@
 		80835FBE1BF605C600937DAA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		80835FBF1BF605C600937DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		80835FC51BF605C600937DAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		80835FC61BF605C600937DAA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		80835FC71BF605C600937DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		80835FC81BF605C600937DAA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
 		80835FC91BF605C600937DAA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
-		80835FD31BF605D600937DAA /* KeyboardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardToolBar.h; sourceTree = "<group>"; };
-		80835FD41BF605D600937DAA /* KeyboardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardToolBar.m; sourceTree = "<group>"; };
-		80835FD61BF61A3300937DAA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		80835FD81BF6234100937DAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		80835FDB1BF62D5E00937DAA /* KeyboardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardToolBar.h; sourceTree = "<group>"; };
+		80835FDC1BF62D5E00937DAA /* KeyboardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardToolBar.m; sourceTree = "<group>"; };
+		80835FDD1BF62D5E00937DAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		80835FDE1BF62D5E00937DAA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +62,13 @@
 		80835FA31BF6050B00937DAA /* KeyboardToolBar */ = {
 			isa = PBXGroup;
 			children = (
-				80835FD21BF605D600937DAA /* KeyboardToolBar */,
+				80835FDA1BF62D5E00937DAA /* Classes */,
 				80835FBD1BF605C600937DAA /* AppDelegate.h */,
 				80835FBE1BF605C600937DAA /* AppDelegate.m */,
-				80835FBF1BF605C600937DAA /* Assets.xcassets */,
-				80835FC51BF605C600937DAA /* Info.plist */,
-				80835FC61BF605C600937DAA /* LICENSE */,
-				80835FC71BF605C600937DAA /* README.md */,
 				80835FC81BF605C600937DAA /* ViewController.h */,
-				80835FD81BF6234100937DAA /* Launch Screen.storyboard */,
 				80835FC91BF605C600937DAA /* ViewController.m */,
-				80835FD61BF61A3300937DAA /* ViewController.xib */,
+				80835FDD1BF62D5E00937DAA /* Launch Screen.storyboard */,
+				80835FDE1BF62D5E00937DAA /* ViewController.xib */,
 				80835FA41BF6050B00937DAA /* Supporting Files */,
 			);
 			path = KeyboardToolBar;
@@ -85,19 +77,21 @@
 		80835FA41BF6050B00937DAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80835FC51BF605C600937DAA /* Info.plist */,
 				80835FBB1BF605B000937DAA /* main.m */,
+				80835FBF1BF605C600937DAA /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		80835FD21BF605D600937DAA /* KeyboardToolBar */ = {
+		80835FDA1BF62D5E00937DAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				80835FD31BF605D600937DAA /* KeyboardToolBar.h */,
-				80835FD41BF605D600937DAA /* KeyboardToolBar.m */,
+				80835FDB1BF62D5E00937DAA /* KeyboardToolBar.h */,
+				80835FDC1BF62D5E00937DAA /* KeyboardToolBar.m */,
 			);
-			name = KeyboardToolBar;
-			sourceTree = "<group>";
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -156,11 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80835FE11BF62D5E00937DAA /* ViewController.xib in Resources */,
 				80835FCE1BF605C600937DAA /* Info.plist in Resources */,
 				80835FCB1BF605C600937DAA /* Assets.xcassets in Resources */,
-				80835FD71BF61A3300937DAA /* ViewController.xib in Resources */,
-				80835FD91BF6234100937DAA /* Launch Screen.storyboard in Resources */,
-				80835FCF1BF605C600937DAA /* LICENSE in Resources */,
+				80835FE01BF62D5E00937DAA /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80835FD51BF605D600937DAA /* KeyboardToolBar.m in Sources */,
-				80835FD01BF605C600937DAA /* README.md in Sources */,
+				80835FDF1BF62D5E00937DAA /* KeyboardToolBar.m in Sources */,
 				80835FCA1BF605C600937DAA /* AppDelegate.m in Sources */,
 				80835FD11BF605C600937DAA /* ViewController.m in Sources */,
 				80835FBC1BF605B000937DAA /* main.m in Sources */,
