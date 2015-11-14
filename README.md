@@ -7,11 +7,11 @@ No longer have to worry about keyboard cover input box, that is the KeyboardTool
 - Download KeyboardToolBar and try out the include iPhone example apps.  
 ### Installation with CocoaPods  
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like KeyboardToolBar in your projects.  
-####Podfile  
+#### Podfile  
 	platform :ios, '7.0'
 	pod "KeyboardToolBar"
 ### Usage  
-#### import   
+#### import  
 	/// do not forget import
 	#import "KeyboardToolBar.h"
 #### registerKeyboardToolBar  
