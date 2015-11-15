@@ -25,6 +25,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.first.textColor = [UIColor greenColor];
+    self.first.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.first.placeholder attributes:@{NSForegroundColorAttributeName: [UIColor redColor]}];
+    
     [KeyboardToolBar registerKeyboardToolBar:self.first];
     [KeyboardToolBar registerKeyboardToolBar:self.second];
     [KeyboardToolBar registerKeyboardToolBar:self.third];
@@ -100,6 +104,14 @@
 
 - (void)thenToDo {
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+}
+
+- (IBAction)toMyGithub:(id)sender {
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://github.com/Jiar/KeyboardToolBar/"]]];
+    UIViewController *viewCro = [[UIViewController alloc] init];
+    [viewCro.view addSubview:webView];
+    [self presentViewController:viewCro animated:YES completion:nil];
 }
 
 @end

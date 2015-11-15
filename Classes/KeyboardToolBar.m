@@ -74,7 +74,6 @@ static KeyboardToolBar *keyboardToolBar = nil;
         keyboardToolBar.scrollView.bounces = NO;
         
         keyboardToolBar.toolBarTextField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, KeyboardScrollViewWidth, KeyboardToolBarHeight)];
-        keyboardToolBar.toolBarTextField.textColor = [UIColor colorWithRed:1.000 green:0.400 blue:0.200 alpha:1.000];
         keyboardToolBar.toolBarTextField.textAlignment = NSTextAlignmentLeft;
         keyboardToolBar.toolBarTextField.userInteractionEnabled = NO;
         
@@ -108,8 +107,11 @@ static KeyboardToolBar *keyboardToolBar = nil;
         keyboardToolBar.scrollView.contentSize = CGSizeMake(KeyboardScrollViewWidth, KeyboardToolBarHeight);
     }
     keyboardToolBar.toolBarTextField.text = tempTextField.text;
+    keyboardToolBar.toolBarTextField.textColor = tempTextField.textColor;
     if(tempTextField.placeholder != nil) {
-        keyboardToolBar.toolBarTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:tempTextField.placeholder attributes:@{NSForegroundColorAttributeName: [UIColor lightGrayColor]}];
+        NSAttributedString *attribute = textField.attributedPlaceholder;
+        NSDictionary *dictionary = [attribute attributesAtIndex:0 effectiveRange:nil];
+        keyboardToolBar.toolBarTextField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:tempTextField.placeholder attributes:@{NSForegroundColorAttributeName: [dictionary valueForKey:NSForegroundColorAttributeName]}];
     }
 }
 
