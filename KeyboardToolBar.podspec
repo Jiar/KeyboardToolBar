@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/Jiar/KeyboardToolBar"
-  s.screenshots  = "https://github.com/Jiar/KeyboardToolBar/blob/master/images/KeyboardToolBar.gif"
+  #  s.screenshots  = "https://github.com/Jiar/KeyboardToolBar/blob/master/images/KeyboardToolBar.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
