@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KeyboardToolBar"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "No longer have to worry about keyboard cover input box"
 
   s.description  = <<-DESC

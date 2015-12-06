@@ -7,12 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
-                <outlet property="fifth" destination="fhm-fl-BRn" id="cft-tG-pMj"/>
                 <outlet property="first" destination="F8k-am-Zfu" id="Yrj-Qf-RkJ"/>
-                <outlet property="fourth" destination="l9K-Si-gkf" id="nFl-dJ-YHd"/>
-                <outlet property="second" destination="sJs-d2-irt" id="ef4-Dh-dfh"/>
-                <outlet property="sixth" destination="sg5-nq-DxY" id="hAo-MQ-KSQ"/>
-                <outlet property="third" destination="nW5-7b-pL0" id="H7d-TD-ZC8"/>
                 <outlet property="view" destination="iN0-l3-epB" id="M77-zS-nMs"/>
             </connections>
         </placeholder>
@@ -22,145 +17,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="first text" borderStyle="roundedRect" placeholder="first placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F8k-am-Zfu">
-                    <rect key="frame" x="102" y="147" width="97" height="30"/>
+                    <rect key="frame" x="103" y="105" width="97" height="30"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="second text" borderStyle="roundedRect" placeholder="second placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJs-d2-irt">
-                    <rect key="frame" x="102" y="206" width="97" height="30"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="third text" borderStyle="roundedRect" placeholder="third placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-7b-pL0">
-                    <rect key="frame" x="102" y="263" width="97" height="30"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fifth text" borderStyle="roundedRect" placeholder="fifth placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhm-fl-BRn">
-                    <rect key="frame" x="102" y="382" width="97" height="30"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fourth text" borderStyle="roundedRect" placeholder="fourth placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9K-Si-gkf">
-                    <rect key="frame" x="102" y="321" width="97" height="30"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="sixth text" borderStyle="roundedRect" placeholder="sixth placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sg5-nq-DxY">
-                    <rect key="frame" x="102" y="440" width="97" height="30"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyG-su-0v1">
-                    <rect key="frame" x="14" y="147" width="64" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 1"/>
-                    <connections>
-                        <action selector="register1:" destination="-1" eventType="touchUpInside" id="Tag-oe-Lbb"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prn-1f-FF2">
-                    <rect key="frame" x="225" y="147" width="81" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 1"/>
-                    <connections>
-                        <action selector="unregister1:" destination="-1" eventType="touchUpInside" id="KrL-p3-uty"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aH-kq-6Ir">
-                    <rect key="frame" x="14" y="206" width="66" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 2"/>
-                    <connections>
-                        <action selector="register2:" destination="-1" eventType="touchUpInside" id="Cl8-8B-nEw"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUi-w3-Q7S">
-                    <rect key="frame" x="223" y="206" width="83" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 2"/>
-                    <connections>
-                        <action selector="unregister2:" destination="-1" eventType="touchUpInside" id="dDK-ep-nkf"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sr-aj-quy">
-                    <rect key="frame" x="14" y="263" width="66" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 3"/>
-                    <connections>
-                        <action selector="register3:" destination="-1" eventType="touchUpInside" id="UkL-Af-hmc"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPb-xs-QUD">
-                    <rect key="frame" x="223" y="263" width="83" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 3"/>
-                    <connections>
-                        <action selector="unregister3:" destination="-1" eventType="touchUpInside" id="f38-zP-ok1"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTa-sZ-qpg">
-                    <rect key="frame" x="14" y="321" width="66" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 4"/>
-                    <connections>
-                        <action selector="register4:" destination="-1" eventType="touchUpInside" id="z4f-cY-qgN"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70J-rS-ePE">
-                    <rect key="frame" x="223" y="321" width="83" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 4"/>
-                    <connections>
-                        <action selector="unregister4:" destination="-1" eventType="touchUpInside" id="o5X-85-Z92"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emA-1h-C1I">
-                    <rect key="frame" x="14" y="382" width="66" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 5"/>
-                    <connections>
-                        <action selector="register5:" destination="-1" eventType="touchUpInside" id="Cfe-tj-6Ag"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN6-Qp-DJX">
-                    <rect key="frame" x="223" y="382" width="83" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 5"/>
-                    <connections>
-                        <action selector="unregister5:" destination="-1" eventType="touchUpInside" id="zu9-qw-Bsi"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6j-4b-N2n">
-                    <rect key="frame" x="14" y="440" width="66" height="30"/>
-                    <animations/>
-                    <state key="normal" title="register 6"/>
-                    <connections>
-                        <action selector="register6:" destination="-1" eventType="touchUpInside" id="SUw-24-zUP"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvS-jG-BXP">
-                    <rect key="frame" x="223" y="440" width="83" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister 6"/>
-                    <connections>
-                        <action selector="unregister6:" destination="-1" eventType="touchUpInside" id="FcM-yj-b7N"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5Y-6N-RAn">
-                    <rect key="frame" x="106" y="88" width="89" height="30"/>
-                    <animations/>
-                    <state key="normal" title="unregister all"/>
-                    <connections>
-                        <action selector="unregisterAll:" destination="-1" eventType="touchUpInside" id="H0m-TO-Afy"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to use KeyboardToolBar  by:Jiar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykB-a9-teq">
                     <rect key="frame" x="1" y="526" width="318" height="21"/>
                     <animations/>
@@ -177,10 +38,57 @@
                         <action selector="toMyGithub:" destination="-1" eventType="touchUpInside" id="wKC-Qh-RYw"/>
                     </connections>
                 </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="third text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VIm-DM-zvQ">
+                    <rect key="frame" x="92" y="232" width="136" height="50"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <searchBar contentMode="redraw" fixedFrame="YES" text="fifth text" placeholder="fifth placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rhd-gf-5jS">
+                    <rect key="frame" x="58" y="377" width="198" height="44"/>
+                    <animations/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <searchBar contentMode="redraw" fixedFrame="YES" text="sixth text" placeholder="sixth placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="X9H-wz-QtQ">
+                    <rect key="frame" x="57" y="444" width="199" height="44"/>
+                    <animations/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="fourth text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BTo-kW-8zf">
+                    <rect key="frame" x="92" y="295" width="136" height="50"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="second text" borderStyle="roundedRect" placeholder="second placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JLM-E0-MT2">
+                    <rect key="frame" x="103" y="172" width="97" height="30"/>
+                    <animations/>
+                    <color key="textColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pO2-Tk-07R">
+                    <rect key="frame" x="8" y="104" width="84" height="30"/>
+                    <animations/>
+                    <state key="normal" title="register first"/>
+                    <connections>
+                        <action selector="registerFirst:" destination="-1" eventType="touchUpInside" id="w6H-tq-3l9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruj-p9-jAd">
+                    <rect key="frame" x="211" y="104" width="101" height="30"/>
+                    <animations/>
+                    <state key="normal" title="unregister first"/>
+                    <connections>
+                        <action selector="unregisterFirst:" destination="-1" eventType="touchUpInside" id="2cg-T8-ub8"/>
+                    </connections>
+                </button>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="201" y="320"/>
+            <point key="canvasLocation" x="202" y="300"/>
         </view>
     </objects>
 </document>

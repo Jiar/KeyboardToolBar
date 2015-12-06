@@ -1,26 +1,46 @@
 //
 //  KeyboardToolBar.h
-//  cdd
+//  KeyboardToolBar
 //
 //  Created by Jiar on 15/10/14.
-//  Copyright © 2015年 unisoft. All rights reserved.
+//  Copyright © 2015年 Jiar. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  KeyboardToolBar 已支持runtime。
+ *  如果你想使用KeyboardToolBar，你只需要在项目中使用
+ *  #import "KeyboardToolBar.h" 即可。
+ *  https://github.com/Jiar/KeyboardToolBar/
+ *  author:   Jiar
+ */
 @interface KeyboardToolBar : UIToolbar
 
-/// 使用该方法给UITextField注册使用KeyboardToolBar
-/// @param textField 需要注册的UITextField
-+ (void)registerKeyboardToolBar:(UITextField *)textField;
+/// 为UITextField注册使用KeyboardToolBar
++ (void)registerKeyboardToolBarWithTextField:(UITextField *)textField;
+/// 为UITextView注册使用KeyboardToolBar
++ (void)registerKeyboardToolBarWithTextView:(UITextView *)textView;
+/// 为UISearchBar注册使用KeyboardToolBar
++ (void)registerKeyboardToolBarWithSearchBar:(UISearchBar *)searchBar;
 
-/// 不想让UITextField使用KeyboardToolBar的时候
-/// 强烈建议使用该方法给UITextField移除KeyboardToolBar
-/// @param textField 需要移除的UITextField
-+ (void)unregisterKeyboardToolBar:(UITextField *)textField;
+/// 为UITextField移除KeyboardToolBar
++ (void)unregisterKeyboardToolBarWithTextField:(UITextField *)textField;
+/// 为UITextView移除KeyboardToolBar
++ (void)unregisterKeyboardToolBarWithTextView:(UITextView *)textView;
+/// 为UISearchBar移除KeyboardToolBar
++ (void)unregisterKeyboardToolBarWithSearchBar:(UISearchBar *)searchBar;
 
-/// 如果嫌一个一个给UITextField移除KeyboardToolBar麻烦
-/// 使用这个方法一次性将所有的UITextField移除KeyboardToolBar
-+ (void)unregisterAllKeyboardToolBar;
+@end
+
+@interface UITextField (KeyboardToolBar)
+
+@end
+
+@interface UITextView (KeyboardToolBar)
+
+@end
+
+@interface UISearchBar (KeyboardToolBar)
 
 @end
