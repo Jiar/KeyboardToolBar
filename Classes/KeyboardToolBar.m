@@ -352,6 +352,7 @@ static KeyboardToolBar *keyboardToolBar = nil;
 
 - (void)resignKeyboard {
     keyboardToolBar.toolBarTextField.text = @"";
+    keyboardToolBar.toolBarTextField.placeholder = @"";
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
