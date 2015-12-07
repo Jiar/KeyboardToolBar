@@ -2,7 +2,7 @@
 -------------------
 ### What's the KeyboardToolBar
 No longer have to worry about keyboard cover input box, that is the KeyboardToolBar's keynote. It's easy to be used for iPhone and iPad.  
-![KeyboardToolBar show](/images/KeyboardToolBar.gif)  
+![KeyboardToolBar2 show](/images/KeyboardToolBar2.gif)  
 ### How To Get Started
 
 - Download KeyboardToolBar and try out the include iPhone example apps.
