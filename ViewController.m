@@ -21,6 +21,7 @@
     [super viewDidLoad];
     
     self.first.textColor = [UIColor greenColor];
+    self.first.secureTextEntry = YES;
     self.first.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.first.placeholder attributes:@{NSForegroundColorAttributeName: [UIColor redColor]}];
 }
 

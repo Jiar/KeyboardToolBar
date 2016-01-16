@@ -218,34 +218,34 @@ static KeyboardToolBar *keyboardToolBar = nil;
 }
 
 /*
-+ (void)unregisterAllKeyboardToolBar {
-    if(keyboardToolBar == nil || keyboardToolBar.allRegisters.count == 0) {
-        return;
-    }
-    NSEnumerator *enumeratorValue = [keyboardToolBar.allRegisters objectEnumerator];
-    for(id temp in enumeratorValue) {
-        if([temp isMemberOfClass:[UITextField class]]) {
-            UITextField *tempTextField = (UITextField *)temp;
-            [tempTextField setInputAccessoryView:nil];
-            [tempTextField removeTarget:keyboardToolBar action:@selector(textFieldDidBeginWithTextField:) forControlEvents:UIControlEventEditingDidBegin];
-            [tempTextField removeTarget:keyboardToolBar action:@selector(textFieldDidChangeWithTextField:) forControlEvents:UIControlEventEditingChanged];
-        } else if([temp isMemberOfClass:[UITextView class]]) {
-            UITextView *tempTextView = (UITextView *)temp;
-            [tempTextView setInputAccessoryView:nil];
-            tempTextView.delegate = nil;
-            [keyboardToolBar.allRegisters removeObjectForKey:[NSString stringWithFormat:@"%p",tempTextView]];
-        } else if([temp isMemberOfClass:[UISearchBar class]]) {
-            UISearchBar *tempSearchBar = (UISearchBar *)temp;
-            [tempSearchBar setInputAccessoryView:nil];
-            tempSearchBar.delegate = nil;
-            [keyboardToolBar.allRegisters removeObjectForKey:[NSString stringWithFormat:@"%p",tempSearchBar]];
-        }
-    }
-    [keyboardToolBar.allRegisters removeAllObjects];
-    keyboardToolBar.allRegisters = nil;
-    keyboardToolBar = nil;
-}
-*/
+ + (void)unregisterAllKeyboardToolBar {
+ if(keyboardToolBar == nil || keyboardToolBar.allRegisters.count == 0) {
+ return;
+ }
+ NSEnumerator *enumeratorValue = [keyboardToolBar.allRegisters objectEnumerator];
+ for(id temp in enumeratorValue) {
+ if([temp isMemberOfClass:[UITextField class]]) {
+ UITextField *tempTextField = (UITextField *)temp;
+ [tempTextField setInputAccessoryView:nil];
+ [tempTextField removeTarget:keyboardToolBar action:@selector(textFieldDidBeginWithTextField:) forControlEvents:UIControlEventEditingDidBegin];
+ [tempTextField removeTarget:keyboardToolBar action:@selector(textFieldDidChangeWithTextField:) forControlEvents:UIControlEventEditingChanged];
+ } else if([temp isMemberOfClass:[UITextView class]]) {
+ UITextView *tempTextView = (UITextView *)temp;
+ [tempTextView setInputAccessoryView:nil];
+ tempTextView.delegate = nil;
+ [keyboardToolBar.allRegisters removeObjectForKey:[NSString stringWithFormat:@"%p",tempTextView]];
+ } else if([temp isMemberOfClass:[UISearchBar class]]) {
+ UISearchBar *tempSearchBar = (UISearchBar *)temp;
+ [tempSearchBar setInputAccessoryView:nil];
+ tempSearchBar.delegate = nil;
+ [keyboardToolBar.allRegisters removeObjectForKey:[NSString stringWithFormat:@"%p",tempSearchBar]];
+ }
+ }
+ [keyboardToolBar.allRegisters removeAllObjects];
+ keyboardToolBar.allRegisters = nil;
+ keyboardToolBar = nil;
+ }
+ */
 
 + (instancetype)shareKeyboardToolBar {
     if (keyboardToolBar == nil) {
@@ -265,7 +265,7 @@ static KeyboardToolBar *keyboardToolBar = nil;
         UIBarButtonItem *finishBtnItem = [[UIBarButtonItem alloc]initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:keyboardToolBar action:@selector(resignKeyboard)];
         NSArray * buttonsArray = [NSArray arrayWithObjects:textFieldItem,finishBtnItem,nil];
         [keyboardToolBar setItems:buttonsArray];
-
+        
     }
     return keyboardToolBar;
 }
@@ -311,6 +311,7 @@ static KeyboardToolBar *keyboardToolBar = nil;
     }
     keyboardToolBar.toolBarTextField.text = tempTextField.text;
     keyboardToolBar.toolBarTextField.textColor = tempTextField.textColor;
+    keyboardToolBar.toolBarTextField.secureTextEntry = tempTextField.secureTextEntry;
     if(tempTextField.placeholder != nil) {
         NSAttributedString *attribute = textField.attributedPlaceholder;
         NSDictionary *dictionary = [attribute attributesAtIndex:0 effectiveRange:nil];
@@ -331,6 +332,7 @@ static KeyboardToolBar *keyboardToolBar = nil;
     }
     keyboardToolBar.toolBarTextField.text = tempTextView.text;
     keyboardToolBar.toolBarTextField.textColor = tempTextView.textColor;
+    keyboardToolBar.toolBarTextField.secureTextEntry = NO;
     keyboardToolBar.toolBarTextField.attributedPlaceholder = nil;
 }
 
@@ -346,6 +348,7 @@ static KeyboardToolBar *keyboardToolBar = nil;
         keyboardToolBar.scrollView.contentSize = CGSizeMake(KeyboardScrollViewWidth, KeyboardToolBarHeight);
     }
     keyboardToolBar.toolBarTextField.text = tempSearchBar.text;
+    keyboardToolBar.toolBarTextField.secureTextEntry = NO;
     keyboardToolBar.toolBarTextField.attributedPlaceholder = nil;
     keyboardToolBar.toolBarTextField.placeholder = tempSearchBar.placeholder;
 }

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KeyboardToolBar"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "No longer have to worry about keyboard cover input box"
 
   s.description  = <<-DESC
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Jiar/KeyboardToolBar.git", :tag => "2.0.0" }
+  s.source       = { :git => "https://github.com/Jiar/KeyboardToolBar.git", :tag => "2.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
